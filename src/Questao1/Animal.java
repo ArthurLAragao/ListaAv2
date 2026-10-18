@@ -84,7 +84,7 @@ class Gato extends Animal {
         double valorBase = super.calcularConsulta();
 
         if (castrado) {
-            return valorBase * 0.90;
+            return valorBase * 0.70;
         }
 
         return valorBase;
