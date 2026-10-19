@@ -1,39 +1,43 @@
-import Questao2.Veiculo;
+package Questao2;
 
-static void main(String[]args) {
+import Questao2.Carro;
+import Questao2.Moto;
 
-            Carro corolla = new Carro(
-                    "Corolla",
-                    2024,
-                    "ABC1D23",
-                    'L'
-            );
+public class Main {
 
-            Carro onix = new Carro(
-                    "Onix",
-                    2023,
-                    "DEF4G56",
-                    'E'
-            );
+    public static void main(String[] args) {
 
-            Moto honda = new Moto(
-                    "Honda CG",
-                    2022,
-                    "GHI7J89",
-                    true
-            );
+        Carro corolla = new Carro(
+                "Corolla",
+                2024,
+                "ABC1D23",
+                'L'
+        );
 
-            Moto yamaha = new Moto(
-                    "Yamaha Fazer",
-                    2024,
-                    "KLM0N12",
-                    false
-            );
+        Carro onix = new Carro(
+                "Onix",
+                2023,
+                "DEF4G56",
+                'E'
+        );
 
-            corolla.exibirFicha();
-            onix.exibirFicha();
-            honda.exibirFicha();
-            yamaha.exibirFicha();
-        }
+        Moto honda = new Moto(
+                "Honda CG",
+                2022,
+                "GHI7J89",
+                true
+        );
+
+        Moto yamaha = new Moto(
+                "Yamaha Fazer",
+                2024,
+                "KLM0N12",
+                false
+        );
+
+        corolla.exibirFicha();
+        onix.exibirFicha();
+        honda.exibirFicha();
+        yamaha.exibirFicha();
     }
-
+}
