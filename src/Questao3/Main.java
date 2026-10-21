@@ -10,5 +10,6 @@
             convencional.imprimirBilhete();
             executiva.imprimirBilhete();
             leito.imprimirBilhete();
+
         }
     }
