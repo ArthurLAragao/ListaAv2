@@ -39,5 +39,6 @@ public class Main {
         onix.exibirFicha();
         honda.exibirFicha();
         yamaha.exibirFicha();
+        
     }
 }

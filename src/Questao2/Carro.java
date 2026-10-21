@@ -34,5 +34,6 @@ public class Carro extends Veiculo {
 
             return super.calcularPreco();
         }
+        
     }
 
