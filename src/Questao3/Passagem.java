@@ -12,6 +12,7 @@ public abstract class Passagem {
         this.numAssento = numAssento;
         this.preco = 30;
 
+        
     }
 
     abstract String PuxarValor();
